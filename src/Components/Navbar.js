@@ -17,6 +17,7 @@ export class Navbar extends Component {
         <div className="hide-button">
           <button>
             <ArrowBackOutlinedIcon />
+            <p>hello</p>
           </button>
         </div>
         <div className="logo-div">
