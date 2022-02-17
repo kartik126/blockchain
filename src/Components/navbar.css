@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-container {
+
+    width: 18%;
+    height: 100vh;
+    background-color: #273a46;
+}
+
+.hide-button {
+
+    height: 50px;
+    width: 100%;
+}
+
+.hide-button button {
+    background-color: #86c440;
+    width: 35px;
+    height: 35px;
+    border-style: none;
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.hide-button svg {
+    height: 18px;
+    color: white;
+}
+
+.logo-div {
+    display: flex;
+
+    width: 100%;
+    height: 100px;
+}
+
+.bg-primary {
+    --tw-bg-opacity: 1;
+    background-color: rgba(24, 37, 45, var(--tw-bg-opacity));
+    border-radius: 31px;
+    margin: 11px;
+}
+
+
+.w-12 {
+    width: 3rem;
+}
+
+.h-12 {
+    height: 3rem;
+}
+
+.logo-name {
+    color: #86c440;
+}
+
+.logo-name h1 {
+    margin-top: 15px;
+}
+
+.wallet-div {
+
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.wallet-button {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    width: 90%;
+    height: 40px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #86c440;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.wallet-button svg {
+    margin-right: 10px;
+}
+
+.middle-buttons-div {
+    width: 100%;
+    height: 150px;
+
+}
+
+.dvdx-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    width: 88%;
+    height: 40px;
+    border-style: none;
+    border-radius: 3px;
+    background-color: #18252d;
+    color: white;
+    margin-top: 22px;
+    margin-left: 14px;
+}
+
+.dvdx-button svg {
+    margin-right: 10px;
+    color: #86c440;
+    height: 22px;
+    width: 25px;
+}
+
+.signup-updates-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    width: 88%;
+    height: 40px;
+    border-style: none;
+    border-radius: 3px;
+    background-color: #18252d;
+    color: white;
+    margin-top: 22px;
+    margin-left: 14px;
+}
+
+.signup-updates-button svg {
+
+    margin-right: 10px;
+    color: #86c440;
+    height: 22px;
+    width: 25px;
+}
+
+.user-media-div {
+
+    width: 100%;
+    height: 160px;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.first-row button {
+    background-color: #18252d;
+    color: white;
+    width: 60px;
+    height: 48px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.second-row button {
+    background-color: #18252d;
+    color: white;
+    width: 60px;
+    height: 48px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.bottom-buttons-div {
+    width: 100%;
+    height: 160px;
+
+}
+
+.bottom-buttons-div button {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    width: 88%;
+    height: 40px;
+    border-style: none;
+    border-radius: 3px;
+    background-color: #18252d;
+    color: white;
+    margin-top: 20px;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 5px #18252d;
+}
+
+.user-media-div svg {
+    color: #86c440;
+}
