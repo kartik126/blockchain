@@ -11,7 +11,8 @@ import DescriptionOutlinedIcon from "@mui/icons-material/DescriptionOutlined";
 import AddToDriveIcon from "@mui/icons-material/AddToDrive";
 import ArrowBackOutlinedIcon from "@mui/icons-material/ArrowBackOutlined";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import Home from "./Home";
+import Header from "./Header";
+import Transactiontable from "./Transactiontable";
 export class Navbar extends Component {
   render() {
     return (
@@ -74,7 +75,6 @@ export class Navbar extends Component {
               <button>Disclaimer</button>
             </div>
           </div>
-          
         ) : (
           <div className="minimise-bar">
             <div className="show-button">
@@ -90,8 +90,16 @@ export class Navbar extends Component {
             </button>
           </div>
         )}
-         <Home/>
+        <div className="content-component">
+         <Header/>
+         <h1>List of Wallets</h1>
+         <Transactiontable/>
+        </div>
+      
+        
       </div>
+     
+
     );
   }
 }
