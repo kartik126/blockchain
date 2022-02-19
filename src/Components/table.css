@@ -8,6 +8,13 @@
   -ms-flex-direction: column;
   flex-direction: column;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #273a46;
+  color: white;
+  margin: 9px 37px;
+  text-align: center;
+  width: 72rem;
+  margin-left: 290px;
+  
 }
 
 .rt-td {
@@ -16,7 +23,8 @@
 }
 
 .ReactTable * {
-  box-sizing: border-box
+  box-sizing: border-box;
+ 
 }
 
 .ReactTable .rt-table {
@@ -571,4 +579,18 @@
   background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAxOCAxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOCAzdjkuMTNMNCA4IDMgOWw2IDYgNi02LTEtMS00IDQuMTNWM3oiIGZpbGw9IiMzMzMiLz48L3N2Zz4=);
   background-color: aliceblue;
   border-radius: 100px;
+}
+.bg-secondary {
+
+  margin-left: 260px;
+  color: white;
+  width: 72rem;
+  height: 100%;
+  background-color: #273a46;
+}
+.k-column-title{
+  font-size: 25px;
+}
+.k-filtercell{
+  width: 100%;
 }

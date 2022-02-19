@@ -15,7 +15,7 @@ import React, { Component } from "react";export class App extends Component {
     return (
       <div className="App" > 
       <div className="navbar-div"><Navbar showMenu={this.state.showMenu} toggleMenu={this.toggleMenu} /></div>
-      
+     
      
       </div>
     );

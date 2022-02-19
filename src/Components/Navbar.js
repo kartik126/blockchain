@@ -90,12 +90,14 @@ export class Navbar extends Component {
             </button>
           </div>
         )}
+        
         <div className="content-component">
          <Header/>
-         <h1>List of Wallets</h1>
+       
+         <h1 >List of Wallets</h1>
          <Transactiontable/>
-        </div>
-      
+     
+         </div>
         
       </div>
      

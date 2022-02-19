@@ -136,6 +136,7 @@ export class Transactiontable extends Component {
                 style={{
                   maxHeight: "500px",
                   overflow: "auto",
+                  
                 }}
                 expandField={expandField}
                 subItemsField={subItemsField}
